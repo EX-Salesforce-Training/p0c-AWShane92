@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Route__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The route in which the address is located.</description>
+    <externalId>false</externalId>
+    <label>Route</label>
+    <referenceTo>Route__c</referenceTo>
+    <relationshipLabel>Addresses</relationshipLabel>
+    <relationshipName>Addresses</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

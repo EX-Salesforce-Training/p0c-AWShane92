@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mailing_Address__c</fullName>
+    <description>Full mailing address of the field</description>
+    <externalId>false</externalId>
+    <formula>Name + &#39;, &#39; + City__c + &#39;, &#39; +State__c + &#39;, &#39; + Zip_Code__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mailing Address</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

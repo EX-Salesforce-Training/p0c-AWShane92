@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Payout__c</fullName>
+    <description>Reimbursement value if the package is missing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the value that the package is insured for.</inlineHelpText>
+    <label>Insurance Payout</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
