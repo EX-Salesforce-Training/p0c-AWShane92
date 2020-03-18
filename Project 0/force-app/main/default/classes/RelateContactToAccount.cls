@@ -28,7 +28,7 @@ public class RelateContactToAccount
         {
             con = [SELECT AccountId FROM Contact
                    WHERE (MailingStreet =:acc.BillingStreet AND MailingCity =: acc.BillingCity) 
-                   AND (MailingState =: acc.BillingState) LIMIT 1];
+                   AND (MailingState =: acc.BillingState AND AccountId = null) LIMIT 1];
             
             con.AccountId = acc.Id;
             update con;
